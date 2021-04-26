@@ -15,12 +15,12 @@ D:/Code/Wayangku
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50398
+64404
 Successfully changed project path to: D:/Code/Wayangku
 D:/Code/Wayangku
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 108.19 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 1.23 ms.
+Refreshing native plugins compatible for Editor in 65.06 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.05 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Code/Wayangku/Assets
@@ -35,568 +35,34 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity/2020.2.2f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.002501 seconds.
+Registered in 0.002644 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.08 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 49.42 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.379 seconds
+- Completed reload, in  2.244 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015668 seconds.
+Registered in 0.019534 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.30 ms.
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <e8898bf8211642beabed991267b0c31f>:0 
-  at VuforiaEnabledObserver..cctor () [0x00000] in <e8898bf8211642beabed991267b0c31f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.NullReferenceException: Object reference not set to an instance of an object
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <e8898bf8211642beabed991267b0c31f>:0 
-  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <e8898bf8211642beabed991267b0c31f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.401 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 63.5 MB.
-System memory in use after: 63.5 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1862.
-Total: 2.508500 ms (FindLiveObjects: 0.184000 ms CreateObjectMapping: 0.050600 ms MarkObjects: 2.177700 ms  DeleteObjects: 0.094300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Clean Vector Icons/T_0_empty_.png
-  artifactKey: Guid(6b6fd3f59ae45864286df43a2671b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_0_empty_.png using Guid(6b6fd3f59ae45864286df43a2671b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20074559acf3de83b77798d12bc66c7') in 0.737646 seconds
-  Import took 0.749073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000606 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Confused.png
-  artifactKey: Guid(fb11e14e93b45fe4ca06723dea9dcdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Confused.png using Guid(fb11e14e93b45fe4ca06723dea9dcdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368c02b1b1fce313ce036d5b1c715b4c') in 0.068781 seconds
-  Import took 0.185721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/Clean Vector Icons/T_2_arrow_empty_down_.png
-  artifactKey: Guid(85a96536cdeba7e46b4a254c6c705151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_2_arrow_empty_down_.png using Guid(85a96536cdeba7e46b4a254c6c705151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4e7eb249aaa5e6ab30858cf5815ad8') in 0.145303 seconds
-  Import took 0.178669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000428 seconds.
-  path: Assets/Textures/ico_quiz.png
-  artifactKey: Guid(ca340da07cad06b4cb37f503d4abece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_quiz.png using Guid(ca340da07cad06b4cb37f503d4abece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd667bfbcbcb3ba27edc450ec55270f04') in 0.049223 seconds
-  Import took 0.059478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/Textures/ico_scanar.png
-  artifactKey: Guid(e1830213ca4cf3142ba4ac92cbd3db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_scanar.png using Guid(e1830213ca4cf3142ba4ac92cbd3db06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e20afe1a55b5036e3e94b6d9716a0e3') in 0.053527 seconds
-  Import took 0.060417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Textures/bg_main.png
-  artifactKey: Guid(e7acdb0c7d75dcf4ca4eb639c5434d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/bg_main.png using Guid(e7acdb0c7d75dcf4ca4eb639c5434d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ba5509c247f31c9ce6cba3f2674d63') in 0.105711 seconds
-  Import took 0.140864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Clean Vector Icons/T_1_cursor_al.png
-  artifactKey: Guid(5988a2020badc834c96521b52b6a08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_cursor_al.png using Guid(5988a2020badc834c96521b52b6a08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4f4897ca317ccf2bf478d1dba2704a') in 0.086682 seconds
-  Import took 0.097807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Textures/Wayangku/IBima.png
-  artifactKey: Guid(9f3f1ba05e2a17443b4b4a1b684c796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/IBima.png using Guid(9f3f1ba05e2a17443b4b4a1b684c796c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d9ecbfa70a3c2c9bb442d16d98835d') in 0.087687 seconds
-  Import took 0.111438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000546 seconds.
-  path: Assets/Textures/ico_aaa 1.png
-  artifactKey: Guid(729c21ce9ff101f4bb883a7c0beeeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_aaa 1.png using Guid(729c21ce9ff101f4bb883a7c0beeeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a2ff736ecd6da86fbbc88571a4505a') in 0.093338 seconds
-  Import took 0.124792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000647 seconds.
-  path: Assets/Textures/ico_help.png
-  artifactKey: Guid(a71b1cce674877d4ea811ac8728800f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_help.png using Guid(a71b1cce674877d4ea811ac8728800f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c7b3d2d78ce9bebdb5d6a35c6161f9') in 0.022374 seconds
-  Import took 0.047878 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/Textures/Wayangku/IYudhistira.png
-  artifactKey: Guid(40c6111398b0e4f41984109ad979164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/IYudhistira.png using Guid(40c6111398b0e4f41984109ad979164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacabb7b63292786045df8cc2560c51b') in 0.090482 seconds
-  Import took 0.119384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Textures/ico_materi.png
-  artifactKey: Guid(06038eccca990f343b94f0489e56cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_materi.png using Guid(06038eccca990f343b94f0489e56cf77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cb2d1b120d8ba422e9b05938168aa7') in 0.032059 seconds
-  Import took 0.059360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Textures/Wayangku/GNakula.png
-  artifactKey: Guid(c14dbc1585f951046b31ee3f6eb7dcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/GNakula.png using Guid(c14dbc1585f951046b31ee3f6eb7dcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a38fafa27c50db588f3aa21556fbd') in 0.159374 seconds
-  Import took 0.165905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000790 seconds.
-  path: Assets/Textures/p_nkd.png
-  artifactKey: Guid(2d1610168a617254da48f9f389e79752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/p_nkd.png using Guid(2d1610168a617254da48f9f389e79752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b350c37e2918a6726521427813cd8cb') in 0.196349 seconds
-  Import took 0.213291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_coughing.png
-  artifactKey: Guid(c735c2fbfeffe4e45ac4bec63c724cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_coughing.png using Guid(c735c2fbfeffe4e45ac4bec63c724cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50429e13d5992dd0788600018f15f64') in 0.152705 seconds
-  Import took 0.179897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000867 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_05.png
-  artifactKey: Guid(19e5ba7d75c4f2e4e8d2151606339bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_05.png using Guid(19e5ba7d75c4f2e4e8d2151606339bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3565e973d46b186f53b9656ce5e32a4b') in 0.105141 seconds
-  Import took 0.149725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000789 seconds.
-  path: Assets/Textures/Wayangku/GSadewa.png
-  artifactKey: Guid(a10e550ecc7b3354c9b2338e061dd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/GSadewa.png using Guid(a10e550ecc7b3354c9b2338e061dd0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e95c5382b270b3f09344ddb8999177') in 0.141379 seconds
-  Import took 0.173902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/Clean Vector Icons/T_1_head_samurai_.png
-  artifactKey: Guid(c50ecf4cb0747f64487b52e59758d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_head_samurai_.png using Guid(c50ecf4cb0747f64487b52e59758d9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17cbed0d2eccec823f53e73ffe927c5') in 0.077782 seconds
-  Import took 0.100603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/Clean Vector Icons/T_1_moon_full_.png
-  artifactKey: Guid(325d33c6d266f0e448f60efb34dde7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_moon_full_.png using Guid(325d33c6d266f0e448f60efb34dde7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70c377e2f524973bd639f81370dd0e1') in 0.066021 seconds
-  Import took 0.088562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Textures/Wayangku/GBima.png
-  artifactKey: Guid(c6828d9e5a4108545a8a0dad183a6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/GBima.png using Guid(c6828d9e5a4108545a8a0dad183a6c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba63b5589dc6a3e73077bb900caff86') in 0.066817 seconds
-  Import took 0.110714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Clean Vector Icons/T_1_column_.png
-  artifactKey: Guid(2dcc619a49088ab4599cc7e3b756a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_column_.png using Guid(2dcc619a49088ab4599cc7e3b756a1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad5ac5529336a0afff7e0fab69a8cfb') in 0.062964 seconds
-  Import took 0.068866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/Clean Vector Icons/T_1_eye_.png
-  artifactKey: Guid(5c27fc79dd2011c4ab50f507f7cfb7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_eye_.png using Guid(5c27fc79dd2011c4ab50f507f7cfb7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0f1b878dc03b6d23ad2c9f727772a3') in 0.059205 seconds
-  Import took 0.106098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000978 seconds.
-  path: Assets/Textures/Wayangku/INakula.png
-  artifactKey: Guid(e12d2fbc56e7e304e976743b7993fed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/INakula.png using Guid(e12d2fbc56e7e304e976743b7993fed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ae8577e888a7561671bff0a1088d82') in 0.078790 seconds
-  Import took 0.151187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Sad.png
-  artifactKey: Guid(f4564a0502fffb04e8e1a38d85c6fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Sad.png using Guid(f4564a0502fffb04e8e1a38d85c6fb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2086827c7445007ad1df6f6be14ea515') in 0.076826 seconds
-  Import took 0.214871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001212 seconds.
-  path: Assets/Textures/ico_profil.png
-  artifactKey: Guid(d636a471d737f28439a035f92894887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_profil.png using Guid(d636a471d737f28439a035f92894887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54e7036f45c651faccfdf89965d2e47') in 0.213157 seconds
-  Import took 0.244622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000489 seconds.
-  path: Assets/Textures/Checkbox_Checked.png
-  artifactKey: Guid(56393268d9f3cff4bae04d6868d2339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Checkbox_Checked.png using Guid(56393268d9f3cff4bae04d6868d2339a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484f1e5f186786d610ea615f3b4e8502') in 0.034203 seconds
-  Import took 0.063421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Clean Vector Icons/T_1_magnifier_.png
-  artifactKey: Guid(4800731ef4eae344c85a8e9b24fb7278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_magnifier_.png using Guid(4800731ef4eae344c85a8e9b24fb7278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419fdf12e011a5ad805c4658b98fedad') in 0.039030 seconds
-  Import took 0.061354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Clean Vector Icons/T_1_sword90_.png
-  artifactKey: Guid(5aa0d71d789c93a468898d8acfcf2a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_sword90_.png using Guid(5aa0d71d789c93a468898d8acfcf2a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8be57256850e1c4fb528402cb3ac807') in 0.044565 seconds
-  Import took 0.070952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_07.png
-  artifactKey: Guid(ad6931e623929ad47ab9daa61454e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_07.png using Guid(ad6931e623929ad47ab9daa61454e000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24adf1a78f01f0ad226a7832b3c5444') in 0.042978 seconds
-  Import took 0.067444 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_01.png
-  artifactKey: Guid(a5b6ecdbc26aa9f47b973c7481d1268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_01.png using Guid(a5b6ecdbc26aa9f47b973c7481d1268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca4b96cfe13869a42b4f50b978a4706') in 0.035657 seconds
-  Import took 0.060363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Textures/Wayangku/ISadewa.png
-  artifactKey: Guid(cead3185dfadb164c9c006af32fbeef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/ISadewa.png using Guid(cead3185dfadb164c9c006af32fbeef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0a2472d67ee8f27c7336c450ec5b77') in 0.073307 seconds
-  Import took 0.103537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Textures/LogoWayangkuApp.png
-  artifactKey: Guid(3881ef99513fee7459d30e89e0f48587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/LogoWayangkuApp.png using Guid(3881ef99513fee7459d30e89e0f48587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c34d40a23447902b7d9b7ebb61bfe') in 0.128215 seconds
-  Import took 0.161094 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000604 seconds.
-  path: Assets/Clean Vector Icons/T_1_magnifier_al_.png
-  artifactKey: Guid(97b5eb5724a79104cb6e0ad05b9db3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_magnifier_al_.png using Guid(97b5eb5724a79104cb6e0ad05b9db3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429901f44ee247661b55643453bc4c48') in 0.072654 seconds
-  Import took 0.103081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001074 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_03.png
-  artifactKey: Guid(8313108d2f2f39c49a04679f5f2da2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_03.png using Guid(8313108d2f2f39c49a04679f5f2da2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fb1f18ce19437eff62e6866d325a40') in 0.140015 seconds
-  Import took 0.231711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000776 seconds.
-  path: Assets/Clean Vector Icons/T_1_scroll_.png
-  artifactKey: Guid(1a7d8d92597c14148ba14377ca88b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_scroll_.png using Guid(1a7d8d92597c14148ba14377ca88b60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139b52cb403d69b37379b11d0edbec58') in 0.115685 seconds
-  Import took 0.266232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001031 seconds.
-  path: Assets/Clean Vector Icons/T_1_bottle_empty_.png
-  artifactKey: Guid(1cb023a73f5d18a46932d97b15db34c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_bottle_empty_.png using Guid(1cb023a73f5d18a46932d97b15db34c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0e709fdc44fdd12eba360fd71ec736') in 0.099299 seconds
-  Import took 0.161314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001448 seconds.
-  path: Assets/Textures/Wayangku/GArjuna.png
-  artifactKey: Guid(830dd2406d315dc40b70ff63cd1c68b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/GArjuna.png using Guid(830dd2406d315dc40b70ff63cd1c68b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06608f7f6142c9a1758b67de13c0ff6a') in 0.137360 seconds
-  Import took 0.170526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Laughing.png
-  artifactKey: Guid(1a01eb51f081e2d4f80eb9d4db6f09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Laughing.png using Guid(1a01eb51f081e2d4f80eb9d4db6f09f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc2b545fc01e360af84f7275ac8a219') in 0.054097 seconds
-  Import took 0.251377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001078 seconds.
-  path: Assets/Textures/Wayangku/GYudhistira.png
-  artifactKey: Guid(0c6d9d312aa407747936b6ec4023f9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/GYudhistira.png using Guid(0c6d9d312aa407747936b6ec4023f9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64733648c3040f61bf5007fb4917d6db') in 0.093271 seconds
-  Import took 0.129214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Textures/ico_exit.png
-  artifactKey: Guid(34971904db4719449b8b89d2fce452cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/ico_exit.png using Guid(34971904db4719449b8b89d2fce452cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ba7267098b20f78234d269bf85dc5f') in 0.016379 seconds
-  Import took 0.031320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Clean Vector Icons/T_1_shield_.png
-  artifactKey: Guid(1815ea71c4e799e45b0db8899c240c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_shield_.png using Guid(1815ea71c4e799e45b0db8899c240c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304d490bde90e2a16b0a4674190d2db2') in 0.050265 seconds
-  Import took 0.067518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Clean Vector Icons/T_2_+_.png
-  artifactKey: Guid(c6b828ebf1d12ab448fc5b321c852c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_2_+_.png using Guid(c6b828ebf1d12ab448fc5b321c852c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba63797776792739789aa815b14cd040') in 0.035970 seconds
-  Import took 0.039192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Textures/Checkbox_Unchecked.png
-  artifactKey: Guid(f067d066c139c5f43b9d36c544223e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Checkbox_Unchecked.png using Guid(f067d066c139c5f43b9d36c544223e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188c6819224aa34782c2f05cc44c21a8') in 0.055074 seconds
-  Import took 0.083907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Textures/p_ind.png
-  artifactKey: Guid(6f89f0f7deae9f142becd0bcf19710b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/p_ind.png using Guid(6f89f0f7deae9f142becd0bcf19710b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1aaa12f34155ac0caa75c0c56a2718') in 0.273892 seconds
-  Import took 0.352332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001110 seconds.
-  path: Assets/Clean Vector Icons/T_2_bottle_half_.png
-  artifactKey: Guid(f816f63babfcb3e4d92c5cd9bb193149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_2_bottle_half_.png using Guid(f816f63babfcb3e4d92c5cd9bb193149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf93fce2157693019cfb53321a2776') in 0.064155 seconds
-  Import took 0.173243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000837 seconds.
-  path: Assets/Clean Vector Icons/T_2_coin_.png
-  artifactKey: Guid(be5129279b1dfca4ab4fa9ddc1c574f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_2_coin_.png using Guid(be5129279b1dfca4ab4fa9ddc1c574f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8858299ae27c9c7523c981584b2b6fae') in 0.059875 seconds
-  Import took 0.145741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Clean Vector Icons/T_1_anvil_.png
-  artifactKey: Guid(6886db5fac1305b4d82a95ca744de0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_anvil_.png using Guid(6886db5fac1305b4d82a95ca744de0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a997531d895280be35269f95f23da') in 0.020538 seconds
-  Import took 0.033066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Yell.png
-  artifactKey: Guid(322058629e47df340a9cfbe5daf6c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Yell.png using Guid(322058629e47df340a9cfbe5daf6c21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa7eeefb95110928b9f722b2d663d7') in 0.046397 seconds
-  Import took 0.067952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Textures/Wayangku/IArjuna.png
-  artifactKey: Guid(7c54c553a4f23654fab9e146c2cdf151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wayangku/IArjuna.png using Guid(7c54c553a4f23654fab9e146c2cdf151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2edd2fcbdb2bae8c17e8bcc49c6f0d9') in 0.084038 seconds
-  Import took 0.131798 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_06.png
-  artifactKey: Guid(0f3ba1ed6373fec4bbd0490fb756f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_06.png using Guid(0f3ba1ed6373fec4bbd0490fb756f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07001fc053f1af3c287476d224f2671c') in 0.038592 seconds
-  Import took 0.045578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Sneezing.png
-  artifactKey: Guid(72ec55939a589894eaf624298fd9f858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Sneezing.png using Guid(72ec55939a589894eaf624298fd9f858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8929cd2f4e830d4b8527ece46ce8c8e') in 0.026485 seconds
-  Import took 0.097123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Clean Vector Icons/T_1_letter_.png
-  artifactKey: Guid(8192f26646a0a92499a7503ccacae72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_letter_.png using Guid(8192f26646a0a92499a7503ccacae72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4eec01f42be47c9f9a26189dff7cd2') in 0.038825 seconds
-  Import took 0.062812 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Resources/Quiz/galung_keling.png
-  artifactKey: Guid(fd74870424e51fe408925cf55d078880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Quiz/galung_keling.png using Guid(fd74870424e51fe408925cf55d078880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc58eed2a44026cff9ed07683cd1cb8') in 0.064245 seconds
-  Import took 0.217037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001456 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_PokerFace.png
-  artifactKey: Guid(037da781f89f23f4b8f3702a4b2d4ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_PokerFace.png using Guid(037da781f89f23f4b8f3702a4b2d4ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f49320e9e0a82b212bba6b2d1422f33') in 0.191790 seconds
-  Import took 0.205751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000790 seconds.
-  path: Assets/Clean Vector Icons/T_1_arrow_empty_up_.png
-  artifactKey: Guid(c5c867e9976dc5d4a8803e01578752f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_arrow_empty_up_.png using Guid(c5c867e9976dc5d4a8803e01578752f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b0ca3e18b9b15e482931cdee846c69') in 0.158507 seconds
-  Import took 0.434280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000985 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_02.png
-  artifactKey: Guid(7c164a8ab621d5b4cbfdafbb24034032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_02.png using Guid(7c164a8ab621d5b4cbfdafbb24034032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa797ba4fbc28897c0b6462b4fc4afd') in 0.190869 seconds
-  Import took 0.215504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/Clean Vector Icons/Update/bonus_04.png
-  artifactKey: Guid(ef147e2665db3394ab8f3c2ade98cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/bonus_04.png using Guid(ef147e2665db3394ab8f3c2ade98cbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b856eba29694f257c879fa8a45abe311') in 0.071833 seconds
-  Import took 0.098664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002068 seconds.
-  path: Assets/Clean Vector Icons/Update/Bonus_Handshake.png
-  artifactKey: Guid(e0561f0590eb6e84385f767634ca2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/Update/Bonus_Handshake.png using Guid(e0561f0590eb6e84385f767634ca2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60062917f5884b6c29038f06e159c3b6') in 0.067534 seconds
-  Import took 0.092772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Clean Vector Icons/T_1_cursor_.png
-  artifactKey: Guid(ff17c68cd8dea9c4b99d8941d92ce176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_cursor_.png using Guid(ff17c68cd8dea9c4b99d8941d92ce176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc97f6c8f495de703fbbbaedee6d18f') in 0.014720 seconds
-  Import took 0.087611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Clean Vector Icons/T_1_fire_.png
-  artifactKey: Guid(062eeb9d5e8ba8f45a9ddfea52518f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Clean Vector Icons/T_1_fire_.png using Guid(062eeb9d5e8ba8f45a9ddfea52518f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77911db5d77de01523f3bae78c2fbcc') in 0.065020 seconds
-  Import took 0.067826 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004168 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <e8898bf8211642beabed991267b0c31f>:0 
@@ -628,29 +94,62 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.285 seconds
+- Completed reload, in  1.708 seconds
 Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395205) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.31 ms.
-Unloading 1170 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 64.7 MB.
-System memory in use after: 64.8 MB.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 1192 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.5 MB.
+System memory in use after: 63.5 MB.
 
-Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 14.555600 ms (FindLiveObjects: 1.419000 ms CreateObjectMapping: 0.609200 ms MarkObjects: 12.420100 ms  DeleteObjects: 0.097700 ms)
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 2.700400 ms (FindLiveObjects: 0.341900 ms CreateObjectMapping: 0.252900 ms MarkObjects: 2.012000 ms  DeleteObjects: 0.090700 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Materi.unity
+  artifactKey: Guid(696409947efd5ff46b28fa08bed22adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materi.unity using Guid(696409947efd5ff46b28fa08bed22adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206c8a4b3e5d6863f2a3774781149def') in 0.200167 seconds
+  Import took 0.206556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.743323 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(3f1b69d4caee210478a92f1da150a6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(3f1b69d4caee210478a92f1da150a6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d489ab5578948ed10fbd5ad0569cdc') in 0.004398 seconds
+  Import took 0.011049 seconds .
+
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 9.94 ms, found 2 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 16.27 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 43.0 MB.
-System memory in use after: 43.1 MB.
+System memory in use before: 39.5 MB.
+System memory in use after: 39.6 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 2.196000 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.096500 ms MarkObjects: 1.807300 ms  DeleteObjects: 0.028500 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 4.481900 ms (FindLiveObjects: 0.600800 ms CreateObjectMapping: 0.118800 ms MarkObjects: 3.723900 ms  DeleteObjects: 0.035600 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 363.157981 seconds.
+  path: Assets/Scenes/Materi.unity
+  artifactKey: Guid(696409947efd5ff46b28fa08bed22adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Materi.unity using Guid(696409947efd5ff46b28fa08bed22adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58dc0fd84a22f42de131dc2255e3438b') in 0.013356 seconds
+  Import took 0.081456 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.74 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 39.9 MB.
+System memory in use after: 40.0 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 4.938100 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.448000 ms MarkObjects: 4.132100 ms  DeleteObjects: 0.040000 ms)
+
