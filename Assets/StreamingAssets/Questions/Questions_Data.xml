@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<DataXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <questionHint>Q1 Anak tertua dalam pandawa adalah</questionHint>
+      <Info>Anak tertua dalam pandawa adalah</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Arjun</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Yudhistira</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q2 Nama lain yang dimiliki Yudhistira?</questionHint>
+      <Info>Nama lain yang dimiliki Yudhistira?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Werkudara</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Janaka</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Tangsen</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Puntadewa</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q3 Siapa tokoh pandawa yang dapat berjalan di atas air?</questionHint>
+      <Info>Siapa tokoh pandawa yang dapat berjalan di atas air?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q4 Yang memiliki tubuh paling besar diantara tokoh pandawa adalah?</questionHint>
+      <Info>Yang memiliki tubuh paling besar diantara tokoh pandawa adalah?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q5 Tokoh Pandawa yang memakai turida yaitu?</questionHint>
+      <Info>Tokoh Pandawa yang memakai turida yaitu?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Yudhistira</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q6 Yang memiliki wajah tampan dan gemar bertapa ialah?</questionHint>
+      <Info>Yang memiliki wajah tampan dan gemar bertapa ialah?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q7 Siapa pemilik pusaka gada rujakpolo?</questionHint>
+      <Info>Siapa pemilik pusaka gada rujakpolo?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q8 Gelung keling dipakai oleh?</questionHint>
+      <Info>Gelung keling dipakai oleh?</Info>
+      <questionType>Image</questionType>
+      <questionImageName>galung_keling</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Yudhistira</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q9 Tangguh, kuat pendiriaannya dan gagah berani adalah sifat?</questionHint>
+      <Info>Tangguh, kuat pendiriaannya dan gagah berani adalah sifat?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Bima</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Q10 Dermawan, bijaksana, jujur dan bersikap adil adalah sifat?</questionHint>
+      <Info>Dermawan, bijaksana, jujur dan bersikap adil adalah sifat?</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Puntadewa</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Arjuna</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sadewa</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Nakula</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>0</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+  </Questions>
+</DataXML>

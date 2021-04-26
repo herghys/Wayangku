@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2635783f0c2abbf4ea99f3d6e7c16df8, type: 3}
+  m_Name: Arjuna
+  m_EditorClassIdentifier: 
+  _nama: Raden Arjuna
+  _namaKecil: Pemadi (Pamade)
+  _namaLain: Janaka, Margana, Kuntadi, Kombang Ali-ali, Kalithi, Indratanaya, Drananjaya,
+    Parta, Pritaputra,Setyo Mergana
+  _patih: Sucitra, Surata
+  _kasatriyan: Madukara
+  _ayah: Prabu Pandhudewanata
+  _ibu: Dewi Kunthi
+  _saudaraKandung:
+  - Yudhistra (Puntadewa)
+  - Werkudara
+  _saudaraTiri:
+  - Nakula
+  - Sadewa
+  _istri:
+  - Dewi Subadra
+  - Dewi Supraba
+  - Dewi Ulupi
+  - Dewi Larasati
+  - Dewi Dersanala
+  - Wara Srikandi
+  - Dewi Jimambang
+  - Dewi Wilutama
+  - Dewi Manuhara
+  - Dewi Gandawati
+  _anak:
+  - Abimanyu (Dewi Subrada)
+  - Prabakusuma (Dewi Supraba)
+  - Irawan (Dewi Ulupi)
+  - Sumitra (Dewi Larasati)
+  - Wisanggeni (Dewi Dersanala)
+  - Bratalaras (Wara Srikandi)
+  - Kumala Dewa (Dewi Jimambang)
+  - Kumalasekti (Dewi Jimambang)
+  - Wilugangga (Dewi Wilutama)
+  - Endang Pregiwa (Dewi Manuhara)
+  - Endang Pregiwati (Dewi Manuhara)
+  - Dewi Gandawati (Gandakusuma)
+  _postur: Memiliki wajah yang tampan, tubuhnya kecil tapi kuat, jiwanya tenang.
+  _sifat: Belas kasihan, Suka menolong, sakti, gemar bertapa, pergi perang tanpa
+    membawa pasukan, satria andalan dewata, murah senyum, mudah beradaptasi atau
+    menyesuaikan diri dan berguru menuntut ilmu.
+  _kesaktian: 
+  _ajian: Palimunan (dapat menghilang), Tunggengmaya (dapat menciptakan air), Sepiangin
+    (dapat berjalan diatas angin), Mayabuni (menundukkan musuh dengan mudah) dan
+    Pengasih (mudah dicintai orang).
+  _pusaka: Keris Kyai Kalanadhah, Keris Kyai Pulanggeni, Panah Pasopati,Ardadadali,
+    Panah Sungkali, Cunda Manik, Bramastra, Keris Kyai Sarotama, Wisesa Pmungkas,
+    Keris Kyai Baruna, Panah Sirsha, Terompet Dewanata, Cupu berisi minyak Jayengkaton,
+    Kuda Ciptawilaha, Cambuk Kyai Pamu.
+  _model: {fileID: 919132149155446097, guid: 7f700507d3fecc74eb54b6085a6baeff, type: 3}
+  _prefabs: {fileID: 8767489666991579264, guid: d7ff31039c0ed7341bb562b2cc61925a,
+    type: 3}
+  _gambar: {fileID: 21300000, guid: 7c54c553a4f23654fab9e146c2cdf151, type: 3}
+  _marker: {fileID: 2800000, guid: 54c1743b2ffa4527bc352c6cc2e88312, type: 3}
+  _desc:
+  - Arjuna merupakan putra ketiga dari Pandu dan Kunthi yang memiliki keahlian memanah
+    yang memiliki nama kecil permadi dan nama lain Janaka, Margana, Kuntadi, Kombang
+    Ali-ali, Kalithi, Indratanaya, Drananjaya, Parta, Pritaputra,Setyo Mergana. Arjuna
+    memiliki 10 istri dan 12 anak, antara lain:<br> (1) Dewi Subadra melahirkan Abimanyu<br>
+    (2) Dewi Supraba melahirkan Prabakusuma<br> (3) Dewi Ulupi melahirkan Irawan<br>
+    (4) Dewi Larasati melahirkan Sumitra<br> (5) Dewi Dersanala melahirkan Wisanggeni<br>
+    (6) Wara Srikandi melahirkan Bratalaras<br> (7) Dewi Jimambang melahirkan kumala
+    dewa dan Kumalasekti<br> (8) Dewi Wilutama melahirkan Wilugangga<br> (9) Dewi
+    Manuhara melahirkan Endang Pregiwadan Endang Pregiwati<br> (10) Dewi Gandawati
+    melahirkan anak Gandakusuma
+  - Arjuna memiliki wajah tampan, tubuh yang tidak kecil namun juga tidak besar,
+    murah senyum, mudah beradaptasi atau menyesuaikan diri dan suka menolong. Arjuna
+    juga memiliki pusaka berupa panah yang bernama panah Pasopati, Keris Kyai Kalanadhah,
+    Keris Kyai Pulanggeni, Ardadadali, Panah Sungkali, Cunda Manik, Bramastra, Keris
+    Kyai Sarotama, Wisesa Pmungkas, Keris Kyai Baruna, Panah Sirsha, Terompet Dewanata,
+    Cupu berisi minyak Jayengkaton, Kuda Ciptawilaha, Cambuk Kyai Pamuk dan keris
+    Kyai Pulanggeni serta memiliki ajian Palimunan (mampu menghilang), Tunggengmaya
+    (mampu menciptakan air), Sepiangin (berjalan diatas angin), Mayabuni (menundukkan
+    musuh dengan mudah) dan Pengasih (mudah dicintai orang). (Yasasusastra, 2011:142).
+    Arjuna suka bertapa, berguru menuntut ilmu, mampu berperang tanpa membawa pasukan,
+    dan sangat sakti.
+  - "Susilamadya (2014:81) menjelaskan \u201Cciri \u2013 ciri wayang Raden Harjuna
+    adalah R. Harjuna menggunakan busana yang sangat  Sederhana, yaitu irah \u2013
+    irahan gelung sapit urang, sumping kudhupturi, serta memakai kain bokongan bunder,
+    ia bermata liyepan, berhidung walimiring, mulut berbentuk salitan tanpa kumis,
+    dengan arah wajah luruh, bentuk jari tangannya driji jalma, posisi kakinya rapet,
+    , sunggingan badan berwarna emas, Sedangkan wajahnya berwarna emas atau hitam,
+    R. Harjuna mempunyai bentuk badan kecil, bersuara besar tapi halus, bicaranya
+    pelan tapi halus\u201D."

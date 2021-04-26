@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2635783f0c2abbf4ea99f3d6e7c16df8, type: 3}
+  m_Name: Bima
+  m_EditorClassIdentifier: 
+  _nama: Bima
+  _namaKecil: Bratasena
+  _namaLain: Werkudara, Bayusuta, Balawa (Bilawa), Bima, Pandhusiwi, Kusumadilaga,
+    Kusumayudha, Senawijasena Gandawastraatmaja
+  _patih: Gagak Baka
+  _kasatriyan: Tunggul Pemenang (Jodipati)
+  _ayah: Prabu Pandhudewanata
+  _ibu: Dewi Kunthi
+  _saudaraKandung:
+  - Punthadewa/Yudhistira
+  - Arjuna
+  _saudaraTiri:
+  - Nakula
+  - Sadewa
+  _istri:
+  - Dewi Nagagini
+  - Dewi Arimbi
+  - Dewi Urang
+  _anak:
+  - Antareja (Dewi Nagagini)
+  - Gathotkaca (Dewi Arimbi)
+  - Antasena (Dewi Urang)
+  _postur: Tubuhnya besar dibandingkan tokoh pandawa yang lain, dada dan bahunya
+    kuat, berjambang dan beranggut, berbulu dada, raut mukanya seperti marah tapi
+    tidak menakutkan, sakti, mampu meloncat tinggi, lengannya panjang dan kekar.
+  _sifat: Jujur, gagah berani, kuat dan teguh pendiriannya.
+  _kesaktian: Pandai memainkan gada, mampu meloncat dengan tinggi, berjalan secepat
+    angin, berkata benar, mampu berjalan diatas air, dan sakti
+  _ajian: Bandung Bandawasa, Wungkal Bener, Blabag Pangantol-Antol, Jalasegara.
+  _pusaka: Kuku Pancanaka, Gada Rujakpolo, Bagawastra.
+  _model: {fileID: 919132149155446097, guid: 55bafe328f15aba4b82d3face7b4a2c2, type: 3}
+  _prefabs: {fileID: 2110794890322907577, guid: d113977197e1b4f46a62f10e6233f4ff,
+    type: 3}
+  _gambar: {fileID: 21300000, guid: 9f3f1ba05e2a17443b4b4a1b684c796c, type: 3}
+  _marker: {fileID: 2800000, guid: c33c97e1196243cd960eb1d022989b7a, type: 3}
+  _desc:
+  - 'Bima merupakan putra kedua dari Pandu dan Kunthi yang memiliki nama lain Werkudara,
+    Bayusuta, Balawa (Bilawa), Bima, Pandhusiwi, Kusumadilaga, Kusumayudha, Senawijasena
+    Gandawastraatmaja dan nama kecil Bratasena (Yasasusastra, 2011:142). Bima memiliki
+    tiga istri dan tiga anak, antara lain : <br>(1)Dewi Nagagini yang melahirkan
+    Antareja<br>(2) Dewi Arimbi yang melahirkan Gathotkaca<br>(3) Dewi Urang yang
+    melahirkan Antasena. Bima memiliki tubuh besar dibandingkan tokoh pandawa yang
+    lain, raut wajah yang menyeramkan, berjambang, berbulu dada, lengan yang panjang
+    dan kekar. Sifar Bima yakni jujur, gagah berani, kuat pendiriannya, dan tangguh.
+    Bima memiliki pusaka gada Rujakpolo dan kuku Pancanaka serta ajian Bandung Bandawasa,
+    Wungkal Bener, Blabag Pangantol-antol, dan Jalasegara. Bima juga pandai memainkan
+    gada, mampu meloncat dengan tinggi, berjalan secepat angin, berkata benar, mampu
+    berjalan diatas air, dan sakti.'
+  - "Susilamadya (2014:68) menjelaskan \u201Cciri - ciri wayang Raden Bima adalah
+    busananya meliputi irah \u2013 irahan gelung sapit urang / minangkara, sumping
+    pudhak sinupet,/ pandhan binethot, pupuk jaroting asem (terdapat diatas kening),
+    kelat bahu dan gelang tangan candrakirana, tidak menggunakan celana, tetapi kain
+    jangkahan koncabayu bermotif poleng bang bintulu aji, dan dibagian paha bergambar
+    porong naga karangrang, arah wajahnya luruh, matanya thelengan,hidungnya benthulan,
+    bentuk mulutnya salitan brengos, ia memiliki wok, jenggot, dan simbar dhadha,
+    warna wajahnya hitam atau emas,bentuk jarinya kuku pancanaka, posisi kakinya
+    jangkah, kuku ibu jari tangannya panjang dan tajam bernama kuku pancanaka, sunggingan
+    badannya berwarna emas atau hitam dengan bentuk badan besar, suaranya besar /
+    mantap, dan tidak dapat berbahasa jawa halus (bahasa karma)\u201D."

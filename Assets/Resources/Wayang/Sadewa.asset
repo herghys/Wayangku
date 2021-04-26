@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2635783f0c2abbf4ea99f3d6e7c16df8, type: 3}
+  m_Name: Sadewa
+  m_EditorClassIdentifier: 
+  _nama: Raden Sadewa
+  _namaKecil: Tangsen
+  _namaLain: Sahadewa, Sudamala
+  _patih: 
+  _kasatriyan: Bumiretawu/Baweratulun.
+  _ayah: Prabu Pandhudewanata.
+  _ibu: Dewi Madrim.
+  _saudaraKandung:
+  - Nakula
+  _saudaraTiri:
+  - Yudhistira
+  - Bima
+  - Arjuna
+  _istri:
+  - Dewi Warsini
+  - Dewi Diwati
+  - Dewi Sranggeniwati
+  _anak:
+  - Dewi Rayungwulan (Dewi Warsini)
+  - Raden Subekti (Dewi Warsini)
+  - Raden Dewa Kusuma (Dewi Diwati)
+  - Raden Widapksa/Raden Sidapaksa (Dewi Srenggeniwati)
+  _postur: Tubuhnya kecil namun kuat dan lincah, rupawan parasnya
+  _sifat: Jujur, setia, taat, belas kasihan, tahu membalas budi dan dapat menyimpan
+    rahasia serta selalu menjaga keselamatan negaranya
+  _kesaktian: 
+  _ajian: Mantra Pangruwatan, Aji Purnamajadhi (dapat mencegah gangguan dan dapat
+    mengingat semua peristiwa.
+  _pusaka: 
+  _model: {fileID: 919132149155446097, guid: d59e6abbc3c7d8944974541884b0d5ad, type: 3}
+  _prefabs: {fileID: 4941517094209913423, guid: 04f97e0117c1de041bb7713e81bb18cb,
+    type: 3}
+  _gambar: {fileID: 21300000, guid: cead3185dfadb164c9c006af32fbeef5, type: 3}
+  _marker: {fileID: 2800000, guid: d46d489d5e4f447298e03424fa0c7a4c, type: 3}
+  _desc:
+  - 'Sadewa merupakan saudara kembar Nakula yang digambarkan sosok yang memiliki
+    postur tubuh kecil, namun kuat seperti Nakula. Sadewa memiliki sifat yang jujur,
+    setia, mempunyai rasa belas kasih, tahu membalas budi. Sadewa memiliki nama lain
+    Shadewa dan Sudamala serta memiliki nama kecil Tangsen. Sadewa memiliki 3 istri
+    dan 5 anak antara lain : <br>(1) Dewi Warsini melahirkan anak Dewi Rayungwulan 
+    dan Raden Subekti<br>(2) Dewi Diwati melahirkan anak Raden Dewa Kusuma<br>(3)
+    Dewi Srenggeniwati melahirkan anak Raden Widapaksa atau Raden sidapaksa. <br>Selain
+    itu, Sadewa memiliki mantra Pangruwatan, Aji Purnamajadhi (mampu mencegah gangguan
+    dan mampu mengingat semua peristiwa).'

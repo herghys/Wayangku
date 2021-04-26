@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2635783f0c2abbf4ea99f3d6e7c16df8, type: 3}
+  m_Name: Nakula
+  m_EditorClassIdentifier: 
+  _nama: Raden Nakula
+  _namaKecil: Pinten
+  _namaLain: 
+  _patih: 
+  _kasatriyan: Sawojajar
+  _ayah: Prabu Pandhudewanata
+  _ibu: Dewi Madrim
+  _saudaraKandung:
+  - Sadewa
+  _saudaraTiri:
+  - Yudhistira
+  - Bima
+  - Arjuna
+  _istri:
+  - Dewi Suyati
+  - Dewi Srengganawati
+  - Dewi Karinuwati
+  _anak:
+  - Dewi Pramusinta (Dewi Suyati)
+  - Dewi Pramuwati (Dewi Suyati)
+  - Dewi Sritanjung (Dewi Srengganawati)
+  _postur: Kecil badannya namun kuat dan lincah, rupawan parasnya, wajahnya mirip
+    saudara kembarnya sakula.
+  _sifat: Jujur, setia, taat, belas kasihan, tahu membalas budi dan dapat menyimpan
+    rahasia dan selalu menjaga keselamatan negara.
+  _kesaktian: 
+  _ajian: Aji-aji Pranawajati, cupu berisi air kehidupan dari Bathara Indra.
+  _pusaka: 
+  _model: {fileID: 919132149155446097, guid: a7775bf9ae56c6748b1b52e3a72922e1, type: 3}
+  _prefabs: {fileID: 1030642855580921798, guid: 23533be42793e5a40a3845338fda8572,
+    type: 3}
+  _gambar: {fileID: 21300000, guid: e12d2fbc56e7e304e976743b7993fed6, type: 3}
+  _marker: {fileID: 2800000, guid: 8032229233164023a8947500fdb65d48, type: 3}
+  _desc:
+  - 'Nakula merupakan anak kembar prabu Pandu dan Dewi Madrim yang memiliki nama
+    kecil Pinten. Nakula memiliki 3 istri dan 3 anak antara lain: (1) Dewi Suyati,
+    melahirkan anak Dewi Pramusinta dan Dewi Pramuwati, (2) Dewi Srengganawati, melahirkan
+    anak Dewi Sritanjung, (3) Dewi Karinuwatitubuh. Nakula memiliki tubuh kecil namun
+    kuat dan lincah, wajah yang mirip dengan saudara kembarnya, Sadewa. Nakula dan
+    Sadewa pandai dan mahir dalam menggunakan pedang. Sifat Nakula yakni jujur, patuh,
+    setia, belas kasihan, tahu balas budi. Nakula juga memiliki Aji-aji Pranawajati,
+    cupu berisi air kehidupan dari Bathara Indra.'
+  - "Ciri \u2013 ciri wayang Raden Nakula adalah menggunakna irah \u2013 irahan gelung
+    sapit urang, sumping surengpati, kalung penanggalan, kelat bahu ngangrangan,
+    gelang tangan calumpringan (ada juga yang memakai gelang tangan binggel siji),
+    gelang kaki ngangrangan, dan memakai kain bokongan bunder sembulihan, bermata
+    liyepan, berhidung walimiring, mulut berbentuk salitan tanpa kumis, dengan arah
+    wajah lenyap, bentuk jari tangannya driji jalma, posisi kakinya rapet, sunggingan
+    badan berwarna emas, hijau muda atau hitam, rambut depan raden Nakula di gulung
+    dan di beri kancing yang disebut turida atau sada sakler. Raden Nakula mempunyai
+    bentuk badan kecil dan bersuara kecil (Susilamadya, 2014:88)."

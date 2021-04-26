@@ -1,0 +1,58 @@
+# Blender MTL File: 'None'
+# Material Count: 5
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd YudhistiraPuntaDewa_TanganKiri.png
+map_Ns YudhistiraPuntaDewa_TanganKiri_Rough.png
+
+newmtl Material.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd YudhistiraPuntaDewa_Badan.png
+map_Ns YudhistiraPuntaDewa_Badan_Rough.png
+
+newmtl Material.003
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd YudhistiraPuntaDewa_TanganKanan.png
+map_Ns YudhistiraPuntaDewa_TanganKanan_Rough.png
+
+newmtl Pegangan.002
+Ns 701.116778
+Ka 0.294920 0.294920 0.294920
+Kd 0.800000 0.308950 0.079514
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Samping.002
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.758470 0.627042 0.456677
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
