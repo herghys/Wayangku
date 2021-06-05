@@ -1,0 +1,27 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 12169 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/Code/Wayangku
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+58849
+Successfully changed project path to: D:/Code/Wayangku
+D:/Code/Wayangku
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 140.48 ms, found 2 plugins.
+Preloading 1 native plugins for Editor in 1.60 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Code/Wayangku/Assets
+GfxDevice: creating device client; threaded=0
