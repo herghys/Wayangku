@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 [Serializable()]
 public struct UIBio
@@ -79,10 +80,11 @@ public class ARUIManager : MonoBehaviour
     [SerializeField] UIFamily uiFamily;
     [SerializeField] UICharacter uiChar;
 
-    #endregion
+	[SerializeField] ScrollRect scroll;
+	#endregion
 
-    #region Unity Defaults
-    private void OnEnable()
+	#region Unity Defaults
+	private void OnEnable()
     {
         events.UpdateWayang += UpdateWayangDescription;
     }
@@ -99,10 +101,13 @@ public class ARUIManager : MonoBehaviour
     #region Set UI
     private void UpdateWayangDescription(Wayang wayang)
     {
-        Debug.Log(wayang);
-        if (wayang != null) SetDescription(wayang);
+		//Debug.Log(wayang);
+		LayoutRebuilder.MarkLayoutForRebuild(ContentPanel);
+		scroll.enabled = false;
+		if (wayang != null) SetDescription(wayang);
         else SetDescriptionEmpty();
-    }
+		scroll.enabled = true;
+	}
     private void SetDescription(Wayang wayang)
     {
         //Bio
@@ -132,8 +137,9 @@ public class ARUIManager : MonoBehaviour
         uiChar.AjianText.text = wayang.Ajian;
         uiChar.PusakaText.text = wayang.Pusaka;
 
-        LayoutRebuilder.ForceRebuildLayoutImmediate(ContentPanel);
-    }
+		LayoutRebuilder.ForceRebuildLayoutImmediate(ContentPanel);
+		Canvas.ForceUpdateCanvases();
+	}
     private void SetDescriptionEmpty()
     {
         uiBio.TargetNameText.text = "Tokoh";
@@ -157,6 +163,9 @@ public class ARUIManager : MonoBehaviour
         uiChar.AjianText.text = string.Empty;
         uiChar.PusakaText.text = string.Empty;
 
-    }
+		LayoutRebuilder.ForceRebuildLayoutImmediate(ContentPanel);
+		Canvas.ForceUpdateCanvases();
+
+	}
     #endregion
 }

@@ -3,7 +3,7 @@ using Vuforia;
 using System.Collections;
 public class ModelSwapper : MonoBehaviour
 {
-    public TrackableBehaviour theTrackable;
+    public ImageTargetBehaviour theTrackable;
     private bool mSwapModel = false;
     // Use this for initialization
     void Start()

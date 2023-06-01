@@ -13,7 +13,7 @@ public class WayangManager : MonoBehaviour
 
     void LoadWayang()
     {
-        Object[] objs = Resources.LoadAll("Wayang", typeof(Wayang));
+        var objs = Resources.LoadAll("Wayang", typeof(Wayang));
         foreach (Wayang item in objs)
         {
             events.WayangDictionary.Add(item.name, item);
